@@ -1,0 +1,176 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "AppointmentBotLuis",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "BookAppointment"
+    },
+    {
+      "name": "GetAvailableDoctors"
+    },
+    {
+      "name": "Cancel"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "Doctor",
+      "subLists": [
+        {
+          "canonicalForm": "Afri",
+          "list": [
+            "Afri",
+            "Akfridha Shahin"
+          ]
+        },
+        {
+          "canonicalForm": "Khaja",
+          "list": [
+            "Khaja",
+            "Khaja Nafiz",
+            "K.N."
+          ]
+        },
+        {
+          "canonicalForm": "John",
+          "list": [
+            "John",
+            "John Doe"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "can i book Appointment",
+      "intent": "BookAppointment",
+      "entities": []
+    },
+    {
+      "text": "can i have an appointment with doctor Afri",
+      "intent": "BookAppointment",
+      "entities": []
+    },
+    {
+      "text": "id like to see doctor Afri",
+      "intent": "BookAppointment",
+      "entities": []
+    },
+    {
+      "text": "id like to see doctor Afri tomorrow",
+      "intent": "BookAppointment",
+      "entities": []
+    },
+    {
+      "text": "is doctor Afri free",
+      "intent": "BookAppointment",
+      "entities": []
+    },
+    {
+      "text": "is doctor Afri free in the afternoon",
+      "intent": "BookAppointment",
+      "entities": []
+    },
+    {
+      "text": "is the doctor Afri free between 2 and 3 today",
+      "intent": "BookAppointment",
+      "entities": []
+    },
+    {
+      "text": "tell me about available Appointments",
+      "intent": "GetAvailableDoctors",
+      "entities": []
+    },
+    {
+      "text": "who is free for appointment",
+      "intent": "GetAvailableDoctors",
+      "entities": []
+    },
+    {
+      "text": "what are available doctors",
+      "intent": "GetAvailableDoctors",
+      "entities": []
+    },
+    {
+      "text": "How can i book a appointment?",
+      "intent": "GetAvailableDoctors",
+      "entities": []
+    },
+    {
+      "text": "any doctors are available?",
+      "intent": "GetAvailableDoctors",
+      "entities": []
+    },
+    {
+      "text": "who can i have a appointment",
+      "intent": "GetAvailableDoctors",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "cancel booking",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "that is all. thank you",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "No. thank you",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "exit",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "i'd like to rent a car",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "winter is coming",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "book a flight to new york",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "book a restaurant tomorrow",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}

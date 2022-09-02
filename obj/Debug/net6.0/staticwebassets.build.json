@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "5Z3acflDB9dQNWetDEJZfyYPZeBtRSIesYNzw64HpYQ=",
+  "Source": "AppointmentBot",
+  "BasePath": "_content/AppointmentBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AppointmentBot\\wwwroot",
+      "Source": "AppointmentBot",
+      "ContentRoot": "C:\\Users\\ACER\\source\\repos\\AppointmentBot\\wwwroot\\",
+      "BasePath": "_content/AppointmentBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ACER\\source\\repos\\AppointmentBot\\wwwroot\\default.htm",
+      "SourceId": "AppointmentBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\source\\repos\\AppointmentBot\\wwwroot\\",
+      "BasePath": "_content/AppointmentBot",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}
